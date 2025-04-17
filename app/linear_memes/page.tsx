@@ -8,7 +8,7 @@ import { getSortedMemesData } from '@/lib/http';
 import { editMem } from '@/lib/http';
 import { labels } from './constants';
 
-export default function linearPage() {
+export default function LinearPage() {
   const [memes, setMemes] = useState<IMemDataDto[]>([]);
   const [like, setLike] = useState<boolean>(false);
   const [curMem, setCurMem] = useState<IMemDataDto | null>(null);

@@ -1,0 +1,14 @@
+package-lock.json
+public
+README.md
+package.json
+.eslintrc.json
+postcss.config.mjs
+tailwind.config.ts
+tsconfig.json
+node_modules
+.vs
+config
+styles
+.env
+.next
